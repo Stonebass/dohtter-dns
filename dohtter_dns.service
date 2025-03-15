@@ -1,0 +1,12 @@
+[Unit]
+Description=Dohtter DNS Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/dohtter_dns
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
