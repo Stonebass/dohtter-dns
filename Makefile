@@ -6,8 +6,8 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 TARGET = build/dohtter_dns
 
 # Source and header files
-SRC = src/main.cpp src/ConfigManager.cpp src/DoHClient.cpp src/RequestHandler.cpp src/DnsServer.cpp
-HEADERS = src/ConfigManager.h src/DoHClient.h src/RequestHandler.h src/DnsServer.h
+SRC = src/main.cpp
+HEADERS = 
 
 # Object files in the build directory
 OBJ = $(patsubst src/%.cpp, build/%.o, $(SRC))

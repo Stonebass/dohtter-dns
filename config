@@ -1,2 +1,2 @@
-https://dns.google/dns-query
-5053
+port=5054
+doh_url=https://cloudflare-dns.com/dns-query

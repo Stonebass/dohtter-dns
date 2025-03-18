@@ -26,7 +26,7 @@ and then
 
 ## Configuration
 
-Make copies the sample config which starts the service on port 5053 and uses google as the upstream DoH server. To change that, edit /etc/dohtter_dns/config and then restart the service.
+Make copies the sample config which starts the service on port 5054 and uses cloudflare as the upstream DoH server. To change that, edit /etc/dohtter_dns/config and then restart the service.
 
 ## License
 
